@@ -1,10 +1,15 @@
 from flask import Flask , render_template 
 
-app = Flask('Test')
+app = Flask(__name__)
 
 
 @app.route('/')
-def home():
-    return render_template('index.html')
+def index():
+    return render_template('register.html')
 
-app.run()
+@app.route('/',methods=["post"])
+def register():
+    return 'xyz'
+
+if __name__=='__main__':
+    app.run()
