@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +18,7 @@
 </div>
 
 <div class="container">
-<form name="frm"  method="post"  onsubmit="return validateForm()" required="required">
+<form name="frm"  method="post"  onsubmit="return CheckForm()" required="required">
 	  <label for="fname">ชื่อ(name):</label>
 	  <input type="text" class="form-control" id="fname" placeholder="Enter name" name="fname">
 
@@ -43,8 +42,7 @@
 </body>
 
 <script>
-function function CheckForm() {
-
+function CheckForm() {
 	if(frm.fname.value == '')
       {
         alert("ENTER YOUR FRISTNAME")
