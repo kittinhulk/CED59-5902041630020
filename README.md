@@ -6,7 +6,7 @@ Information-Security<br>
 1.clone <-Nothing //git clone {Link git clone}<br>
 2.Edite File <-Red //nano {Name File}<br>
 3.Add <-Green //git add {File Name}<br>
-4.Commit <- Nothing //git commit -m"{File name}"<br>
+4.Commit <- Nothing //git commit -m {text}<br>
 5.Push //git push<br>
 
 Login<br>
