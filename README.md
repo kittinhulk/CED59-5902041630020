@@ -13,3 +13,7 @@ Information-Security<br>
 Login<br>
 1.git config --global user.email "{email}"<br>
 2.git config --global user.name "{name}"<br>
+
+install by text
+pip freeze > requirements.text<br>
+pip install -r requirements.text
