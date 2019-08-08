@@ -19,7 +19,7 @@
 </div>
 
 <div class="container">
-<form name="frm"  method="post" action="/action_page.php" onsubmit="return CheckForm()" required="required">
+<form name="frm"  method="post"  onsubmit="return CheckForm()" required="required">
 	  <label for="fname">ชื่อ(name):</label>
 	  <input type="text" class="form-control" id="fname" placeholder="Enter name" name="fname">
 
@@ -43,7 +43,7 @@
 </body>
 
 <script>
-function validateForm() {
+function CheckForm() {
 
 	if(frm.fname.value == '')
       {
